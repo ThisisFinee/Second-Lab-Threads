@@ -100,7 +100,7 @@
     2) Программа завершает выполнение.
 
 ### Сборка 2
-    mpicxx -o First.exe First.cpp
+    mpicxx -o Second.exe Second.cpp
 
 ### Запуск 2
     mpirun -np <num_processes> ./Second.exe <size_of_matrix>    
@@ -112,3 +112,6 @@
     2) Размер матрицы должен быть кратен корню из количества процессов
 
 ### Графики 2
+![Время выполнения](charts/data_second/execution_time_plot.png)
+![Ускорение](charts/data_second/speedup_plot.png)
+![Эффективность](charts/data_second/efficiency_plot.png)
