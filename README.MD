@@ -62,9 +62,18 @@
     mpirun -np 4 ./First.exe 10000 10000    
 
 ### Графики 1
-![Время выполнения](charts/data_first/execution_time_plot.png)
-![Ускорение](charts/data_first/speedup_plot.png)
-![Эффективность](charts/data_first/efficiency_plot.png)
+1) Разбиение по строкам:    
+    ![Время выполнения ](charts/data_first/execution_time_TimeRows_plot.png)
+    ![Ускорение](charts/data_first/speedup_TimeRows_plot.png)
+    ![Эффективность](charts/data_first/efficiency_TimeRows_plot.png)
+2) Разбиение по столбцам:    
+    ![Время выполнения ](charts/data_first/execution_time_TimeCols_plot.png)
+    ![Ускорение](charts/data_first/speedup_TimeCols_plot.png)
+    ![Эффективность](charts/data_first/efficiency_TimeCols_plot.png)
+3) Разбиение по блокам:    
+    ![Время выполнения ](charts/data_first/execution_time_TimeBlocks_plot.png)
+    ![Ускорение](charts/data_first/speedup_TimeBlocks_plot.png)
+    ![Эффективность](charts/data_first/efficiency_TimeBlocks_plot.png)
 
 ## 2. Матричное умножение по алгоритму Кэннона
 1) [Алгоритм](#Пошаговый-алгоритм-работы-программы-2)
