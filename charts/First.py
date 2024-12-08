@@ -29,7 +29,7 @@ def main():
     row_col_start = 1000
     row_col_end = 10000
     row_col_step = 1000
-    num_processes = [1, 5, 10]
+    num_processes = [1, 2, 4, 6, 8]
     executable = "./First.exe"
     output_dir = "charts/data_first"
 

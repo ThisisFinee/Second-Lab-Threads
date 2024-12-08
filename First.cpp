@@ -2,13 +2,13 @@
 #include <vector>
 #include <iostream>
 #include <cstdlib>
-#include <functional> // Для std::function
+#include <chrono>
 
 // Функция для замера времени выполнения
 double measure_algorithm_time(const std::function<void()>& algorithm) {
-    double start_time = MPI_Wtime();
+    auto start_time = MPI_Wtime();
     algorithm();
-    double end_time = MPI_Wtime();
+    auto end_time = MPI_Wtime();
     return end_time - start_time;
 }
 
